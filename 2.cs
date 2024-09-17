@@ -36,15 +36,15 @@ class Program
 {
     static void Main()
     {
-        Console.Write("Enter side A of the rectangle: ");
+        Console.Write("Enter side A: ");
         double sideA = double.Parse(Console.ReadLine());
 
-        Console.Write("Enter side B of the rectangle: ");
+        Console.Write("Enter side B: ");
         double sideB = double.Parse(Console.ReadLine());
 
         Rectangle rectangle = new Rectangle(sideA, sideB);
 
-        Console.WriteLine($"Area of the rectangle: {rectangle.Area}");
-        Console.WriteLine($"Perimeter of the rectangle: {rectangle.Perimeter}");
+        Console.WriteLine($"Area: {rectangle.Area}");
+        Console.WriteLine($"Perimeter: {rectangle.Perimeter}");
     }
 }
