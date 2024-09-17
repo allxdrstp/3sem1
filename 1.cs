@@ -1,4 +1,4 @@
-```
+
 using System;
 
 class Program
@@ -19,4 +19,3 @@ class Program
         Console.WriteLine($"decimal: Min = {decimal.MinValue}, Max = {decimal.MaxValue}");
     }
 }
-```
